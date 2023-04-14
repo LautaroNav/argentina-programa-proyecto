@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+ <title>Pokemon website</title>
+</head>
+<body>
+
+                                <!--BARRA DE NAVEGACIÓN-->
+        <nav>
+                <!--Hacer la navegación con IDs-->
+                    <a href="#contact">contáctanos</a>
+                    <a href="#aboutUS">presentación personal</a>
+                    <a href="#formulario">formulario de reclamo </a>
+                    <a href="#main">main <a>
+        </nav>        
+
+        
+
+
+
+
+
+
+                        <!--MAIN / INFORMACIÓN DONDE VA LA CARD DE POKEMON-->
+<section id="main"> 
+                <div class="tituloPokemon">
+                        <img src="ASSETS/International_Pokémon_logo.svg.png" alt="">
+                </div>
+
+               <form action="">
+                        <input type="text" class="inputPokemon" placeholder="escribe un  pokemon">
+                        <button type="button">Enviar Pokemon</button>
+               </form> 
+              
+
+               <div class="pokecard">
+                                <h3>Pokemon Name</h3>
+                                        <p class="pokeName">soy el nombre del pokemon</p>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br>
+               </div>
+</section>
+
+                                <!--INFORMACIÓN PERSONAL-->
+<section id="aboutUS">
+                        <h1>Mi nombre es Lautaro Navarro</h1>
+                        <h2>Estudiante de desarrollo web Jr</h2>
+
+                        <p>Me encuentro cursando la primer etap del curso 'Argentina Programa 4.0' - 'Introducción al Desarrollo Web Inicial</p>
+
+</section>
+
+
+
+
+
+
+
+
+                                <!--FORMULARIO-->
+<section id="formulario"> 
+        <form action="" >
+                <div class="contenedorLabelInput">
+                        <label for="inputName">Name</label>
+                        <input type="text" class="inputName" placeholder="enter your name">
+                </div>
+                
+                <div class="contenedorLabelInput">
+                        <label for="">Lastname</label>
+                        <input type="text"  class="inputLastname" placeholder="enter your secondname">
+                </div>
+
+                <div class="contenedorLabelInput">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" class="inputEmail" placeholder="enter your email">
+                </div>
+
+                <div class="contenedorLabelInput">
+                        <label for="textoarea">Reclamo</label>
+                        <textarea name="textoarea" class="txt" id="txtarea" cols="30" rows="5" style="resize: none;"></textarea>
+                </div>
+
+                <button type="button" class="botonForm">enviar</button>
+        </form>
+
+
+        <div class="resume">
+                        <h3>Nombre</h3> 
+                        <p class="nombreP">hola</p>
+                        <h3>Apellido</h3>
+                        <p class="apellidoP">hola</p>
+                        <h3>Email</h3>
+                        <p class="emailP">hola</p>
+        </div>
+</section>
+
+
+
+
+
+
+
+
+                                
+<!--CONTACTO / REDES SOCIALES + LEYENDA -->
+<footer id="contact"> 
+
+
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

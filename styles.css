@@ -1,0 +1,186 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; ;
+  color: #fff;
+}
+*{
+  overflow: hidden;
+  box-sizing: border-box;
+
+}
+
+
+nav{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  font-size: 1.08em;
+  background-color: black;
+  opacity: 0.8;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a{
+  margin: 0 30px;
+  text-decoration: none;
+  color: #fff;
+}
+
+#main, #aboutUS, #formulario, #contact{
+        scroll-behavior: smooth;
+}
+
+
+/*MAIN*/
+#main{
+  overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(ASSETS/tyranitar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloPokemon{
+    margin-top: 10px;
+}
+#main input{
+  text-align: center;
+  height: 40px;
+  padding: 10px;
+  color: black;
+  outline: none;
+}
+
+
+
+
+
+#aboutUS{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(ASSETS/greninja-pokemon-thumb.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#formulario{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  padding: 40px;
+  background-image: url(ASSETS/ash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  right;
+}
+
+#formulario form{
+  /* position:absolute ;
+  top:-30px;
+  right:20px; */
+  max-width: 350px;
+  height: auto;
+  padding: 30px;
+  background-color: transparent;
+  border: 1px solid white;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+}
+#formulario  label{
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  padding: 10px;
+}
+
+#formulario button{         
+      width: 100px;
+      height: 50px;
+      margin: -10px auto;
+      background-color: aqua; 
+}
+
+.contenedorLabelInput{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.contenedorLabelInput input{
+  height: 50px;
+  padding: 10px;
+  font-size: 1em;
+  outline:none;
+  margin: 0 15px;
+}
+
+
+.resume{
+  display: none;
+  width: 300px;
+  height: 300px;
+  margin: 40px auto;
+  text-align: center;
+  color: black;
+  background-color: #fff;
+}
+
+.resume h3{
+  margin: 20px ;
+}
+
+
+/**ABOUT ME */
+#aboutUS{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: black;
+  }
+
+
+
+
+
+/*CONTACT*/
+#contact{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(ASSETS/pokemons.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center ;
+}
+
+form input, form textarea{
+  color:black
+}
+
+
+
+/*POKEMON CARD*/
+
+.pokecard{
+  background-color: #fff;
+  margin: 10px;
+  padding: 10px;
+  color:black;
+  text-align: center;
+}
